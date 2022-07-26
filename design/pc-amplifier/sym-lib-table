@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "pc-amplifier")(type "KiCad")(uri "/home/dilshan/projects/pc-amp/pc-amplifier.kicad_sym")(options "")(descr ""))
+)
