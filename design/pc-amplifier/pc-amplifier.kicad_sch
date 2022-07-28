@@ -1263,7 +1263,7 @@
     (uuid 4a987034-4782-4d3d-a9b2-48b19a94c53a)
     (property "Reference" "R1" (id 0) (at 139.7 152.4 90))
     (property "Value" "0R" (id 1) (at 139.7 154.94 90))
-    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (id 2) (at 139.7 160.528 90)
+    (property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical" (id 2) (at 139.7 160.528 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 139.7 158.75 0)
@@ -1586,7 +1586,7 @@
     (uuid e246f5e8-ec22-4141-b6b8-29cb3989af2b)
     (property "Reference" "R2" (id 0) (at 139.7 163.83 90))
     (property "Value" "0R" (id 1) (at 139.7 166.37 90))
-    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (id 2) (at 139.7 171.958 90)
+    (property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical" (id 2) (at 139.7 171.958 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 139.7 170.18 0)
@@ -2005,9 +2005,6 @@
     (path "/4669b17e-5fae-4b5d-94be-7208bcd71fb5/ae66b64f-f660-41ce-8028-103e55472cc1"
       (reference "#PWR0148") (unit 1) (value "GNDA") (footprint "")
     )
-    (path "/362dc043-966c-4bd9-b11d-1034a60ee1a6/09ccd545-709a-49f0-bafe-6770c5abddae"
-      (reference "#PWR0149") (unit 1) (value "GNDA") (footprint "")
-    )
     (path "/362dc043-966c-4bd9-b11d-1034a60ee1a6/47b09b77-c6a5-4f4b-beab-fb015ac7544f"
       (reference "#PWR0150") (unit 1) (value "GNDD") (footprint "")
     )
@@ -2235,6 +2232,9 @@
     )
     (path "/2f97629b-ca35-40e1-950a-976dc6d5099e"
       (reference "#PWR0225") (unit 1) (value "GNDA") (footprint "")
+    )
+    (path "/362dc043-966c-4bd9-b11d-1034a60ee1a6/53f0f51d-9f76-4e9e-9918-88b799543560"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/bbf6665a-0726-424c-8919-000ceceaec9d/c8b2177d-d956-405f-ac31-a3d3e8631cfa"
       (reference "A1") (unit 1) (value "Arduino Nano V3") (footprint "Module:Arduino_Nano")
@@ -2489,10 +2489,10 @@
       (reference "Q4") (unit 1) (value "BC817") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/4a987034-4782-4d3d-a9b2-48b19a94c53a"
-      (reference "R1") (unit 1) (value "0R") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+      (reference "R1") (unit 1) (value "0R") (footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical")
     )
     (path "/e246f5e8-ec22-4141-b6b8-29cb3989af2b"
-      (reference "R2") (unit 1) (value "0R") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+      (reference "R2") (unit 1) (value "0R") (footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical")
     )
     (path "/3bb9c3d4-9a6f-41ac-8d1e-92ed4fe334c0/c004c559-dd72-4b0b-bd1b-2f5664fa3918"
       (reference "R3") (unit 1) (value "2.2K") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
