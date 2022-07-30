@@ -4,6 +4,15 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Arduino Mini Amplifier")
+    (date "2022-07-30")
+    (rev "1.0.0")
+    (company "Dilshan R Jayakody")
+    (comment 1 "jayakody2000lk@gmail.com")
+    (comment 2 "https://github.com/dilshan/arduino-mini-amp")
+  )
+
   (lib_symbols
     (symbol "Connector:AudioJack2_Ground_Switch" (in_bom yes) (on_board yes)
       (property "Reference" "J" (id 0) (at 0 11.43 0)
