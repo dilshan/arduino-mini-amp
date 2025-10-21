@@ -2,6 +2,8 @@
 
 The **Arduino Mini Amplifier** is a complete, open-source audio amplifier system that combines vintage analog audio processing with modern embedded control. It features Bluetooth and line-in audio inputs, tone adjustment, multiple stereo enhancement modes, and a 16-channel real-time audio spectrum analyzer displayed on an LCD.
 
+![Prototype build of the Arduino mini amplifier](https://raw.githubusercontent.com/dilshan/arduino-mini-amp/refs/heads/master/resources/arduino-mini-amp-560px.jpg)
+
 At its core, this design integrates the Philips [TDA8425](https://www.alldatasheet.com/datasheet-pdf/download/19486/PHILIPS/TDA8425.html) analog audio processor - introduced in the late 1980s and known for its high-quality tone control system - with the Yamaha [YDA138](https://www.alldatasheet.com/datasheet-pdf/download/205149/YAMAHA/YDA138.html), a compact Class-D digital power amplifier that delivers up to 2×10 W RMS of clear, low-distortion stereo output.
 
 An [ATmega328P](https://www.alldatasheet.com/datasheet-pdf/download/241077/ATMEL/ATMEGA328P.html) microcontroller platform ([Arduino Nano](https://docs.arduino.cc/resources/datasheets/A000005-datasheet.pdf)) manages all audio controls, user interface elements, and real-time visualizations.
@@ -49,6 +51,6 @@ This amplifier unit of the following functional modules:
 
 This is an open hardware project and all its design files, firmware source code, documentation, and other resource files are available at this project source repository. The content of this project is distributed under the terms of the following licenses:
 
-- Hardware License: CERN-OHL-W 2.0
-- Software License: MIT
-- Documentation License: CC BY 4.0
+- Hardware License: [CERN-OHL-W 2.0](https://ohwr.org/cern_ohl_w_v2.pdf)
+- Software License: [MIT](/dilshan/arduino-mini-amp/blob/master/LICENSE)
+- Documentation License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)
