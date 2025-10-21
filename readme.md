@@ -37,9 +37,12 @@ This will compile and flash the firmware to the board automatically.
 
 The firmware automatically initializes the audio processor, LCD, and input controls at startup. All adjustable parameters—such as tone, volume, and stereo mode - are stored in built-in EEPROM and restored on each power cycle.
 
-## Hardware Design
+## PCB and Hardware Design
 
-This amplifier unit of the following functional modules:
+This project is sponsored by PCBWay. You can directly order the PCB from PCBWay using the shared project link or by uploading the Gerber files available in the Releases section of this repository.
+
+This amplifier has the following functional modules:
+
 - **Audio Processor** – TDA8425-based tone and input control
 - **Spectrum Analyzer** – 16-band with seperate NE5532 op-amp buffer
 - **Power Amplifier** – Yamaha YDA138 Class-D stage (2 × 10 W RMS)
