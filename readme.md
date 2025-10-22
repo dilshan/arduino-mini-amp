@@ -39,7 +39,7 @@ The firmware automatically initializes the audio processor, LCD, and input contr
 
 ## PCB and Hardware Design
 
-This project is sponsored by [PCBWay](https://www.pcbway.com/). You can directly order the PCB from PCBWay using the shared project link or by uploading the Gerber files available in the [Releases](/dilshan/arduino-mini-amp/releases) section of this repository.
+This project is sponsored by [PCBWay](https://www.pcbway.com/). You can directly [order the PCB from PCBWay](https://www.pcbway.com/project/shareproject/Arduino_Mini_Amplifier_c5ac6d9c.html) or by uploading the Gerber files available in the [Releases](/dilshan/arduino-mini-amp/releases) section of this repository.
 
 This amplifier has the following functional modules:
 
