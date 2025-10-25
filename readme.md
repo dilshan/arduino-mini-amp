@@ -49,8 +49,10 @@ This amplifier unit of the following functional modules:
 
 ## License
 
-This is an open hardware project and all its design files, firmware source code, documentation, and other resource files are available at this project source repository. The content of this project is distributed under the terms of the following licenses:
+This is a [certified open hardware project](https://certification.oshwa.org/lk000018.html) and all its design files, firmware source code, [documentation](https://github.com/dilshan/arduino-mini-amp/wiki), and other resource files are available at this project source repository. The content of this project is distributed under the terms of the following licenses:
 
 - Hardware License: [CERN-OHL-W 2.0](https://ohwr.org/cern_ohl_w_v2.pdf)
 - Software License: [MIT](/dilshan/arduino-mini-amp/blob/master/LICENSE)
 - Documentation License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)
+
+[![LK000018](https://raw.githubusercontent.com/dilshan/arduino-mini-amp/refs/heads/master/resources/LK000018.png)](https://certification.oshwa.org/lk000018.html)

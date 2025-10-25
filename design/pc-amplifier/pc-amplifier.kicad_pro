@@ -494,7 +494,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../../../arduino-mini-amp-release/gerber/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
